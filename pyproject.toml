@@ -6,10 +6,12 @@ authors = [
     {name = "baechu805", email = "bjoo606@naver.com"},
 ]
 dependencies = []
-requires-python = "==3.9.*"
+requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "MIT"}
 
-
+[project.scripts]
+plus = "power01_plus.plus:plus"
 [tool.pdm]
-distribution = false
+distribution = true
+
